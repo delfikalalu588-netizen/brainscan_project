@@ -1,9 +1,3 @@
-"""
-src/config.py — Modul Konfigurasi Terpusat
-Brain Disease Classification Pipeline
-Vision Transformer (google/vit-base-patch16-224) Pretrained
-"""
-
 import os
 from pathlib import Path
 
