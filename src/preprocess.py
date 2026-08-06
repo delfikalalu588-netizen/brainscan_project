@@ -1,13 +1,3 @@
-"""
-preprocess.py
--------------
-Berisi:
-  - train_transforms / val_transforms : objek T.Compose siap pakai
-  - get_transforms()                  : mengembalikan (train_tf, val_tf)
-  - print_preprocessing_info()        : cetak ringkasan ke log
-  - plot_preprocessing_distribution() : grafik before/after balancing
-"""
-
 import os
 import cv2
 import logging
