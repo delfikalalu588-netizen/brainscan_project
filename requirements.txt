@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+torch
+torchvision
+opencv-python-headless
+numpy
+pandas
+matplotlib
+pillow
+fpdf2
+google-generativeai
+huggingface_hub
+libsql_client
