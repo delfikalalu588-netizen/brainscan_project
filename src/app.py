@@ -1,18 +1,4 @@
 """
-app.py
-------
-Entry point aplikasi BrainScan AI.
-
-Tanggung jawab file ini HANYA:
-  1. Membuat instance FastAPI
-  2. Mengatur CORS
-  3. Membuat folder output yang diperlukan
-  4. Menyertakan (include) seluruh route dari api.py
-  5. Mount static files (frontend) & folder figures (heatmap)
-
-Semua logika endpoint (load model, /api/analyze/, dll) ada di api.py —
-file ini sengaja dibuat "tipis", cuma perakitan (wiring) doang.
-
 Jalankan dari root proyek (folder yang berisi folder src/):
     uvicorn src.app:app --reload
     # atau
