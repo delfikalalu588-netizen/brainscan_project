@@ -12,15 +12,6 @@ except ImportError:
 
 
 class BrainPreCheckModel(nn.Module):
-    """
-    Pre-Check Model berbasis EfficientNet-B0 (pretrained ImageNet) sebagai
-    backbone ekstraksi fitur, dengan head klasifikasi biner (Valid vs Invalid).
-
-    Nama atribut `backbone` dan `classifier` sengaja dipertahankan (sama seperti
-    versi sebelumnya) agar kompatibel dengan train_precheck.py, yang membekukan
-    `model.backbone` dan hanya melatih `model.classifier`.
-    """
-
     def __init__(self):
         super(BrainPreCheckModel, self).__init__()
 
